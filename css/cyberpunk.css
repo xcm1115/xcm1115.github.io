@@ -10282,6 +10282,38 @@ body > .section {
     background: rgba(0,0,0,0.24);
   }
 }
+.img-x {
+  position: relative;
+  overflow-y: hidden;
+  height: 100%;
+  white-space: nowrap;
+}
+.img-x a {
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  padding: 10px 10px;
+  vertical-align: top;
+  height: 100%;
+  width: 40%;
+}
+.img-y {
+  position: relative;
+  overflow-y: hidden;
+  height: 100%;
+  white-space: nowrap;
+}
+.img-y a {
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  padding: 10px 10px;
+  vertical-align: top;
+  height: 100%;
+  width: 30%;
+}
 .ml-0,
 .mx-0 {
   margin-left: 0 !important;
