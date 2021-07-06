@@ -10793,7 +10793,7 @@ body > .section {
 }
 .card {
   overflow: visible;
-  border-radius: 0;
+  border-radius: 20px;
 }
 .card + .card,
 .card + .column-right-shadow {
@@ -10801,8 +10801,8 @@ body > .section {
 }
 .card .card-image {
   overflow: hidden;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .card .media + .media {
   border: none;
@@ -11440,7 +11440,7 @@ figure.highlight .section {
   line-height: 0;
   overflow: hidden;
   box-shadow: none, 0 0 1px rgba(0,0,0,0.1);
-  border-radius: 0;
+  border-radius: 20px;
 }
 .donate .qrcode img {
   max-width: 280px;
@@ -11544,7 +11544,7 @@ figure.highlight .section {
   outline: none;
   padding: 8px 0;
   line-height: 24px;
-  border-radius: 0;
+  border-radius: 20px;
   transform: translateY(120px);
   transition: 0.4s ease opacity, 0.4s ease width, 0.4s ease transform, 0.4s ease border-radius;
 }
@@ -11621,7 +11621,7 @@ figure.highlight .section {
   background-color: #000 !important;
 }
 .cc-window.cc-floating {
-  border-radius: 0;
+  border-radius: 20px;
   box-shadow: none, 0 0 1px rgba(0,0,0,0.1);
 }
 .cc-window.cc-banner {
