@@ -11437,6 +11437,7 @@ figure.highlight .section {
 }
 .donate {
   position: relative;
+  border-radius: 1.25rem;
 }
 .donate .qrcode {
   display: none;
