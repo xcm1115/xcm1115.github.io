@@ -10922,7 +10922,7 @@ article.article .content .message.message-immersive .message-body {
   z-index: 1;
   box-shadow: none;
   background: #f5f5f5;
-  border-radius: 0;
+  border-radius: 1.25rem;
   overflow: hidden;
 }
 .article-licensing:after {
@@ -11131,7 +11131,7 @@ footer.footer .level-end .field {
   display: flex;
   overflow: hidden;
   box-shadow: none, 0 0 1px rgba(0,0,0,0.1);
-  border-radius: 0;
+  border-radius: 1.25rem;
   background-color: #050a0e;
   width: 540px;
   top: 100px;
@@ -11246,7 +11246,7 @@ footer.footer .level-end .field {
   overflow: hidden;
   padding: 0.5em 0.8em;
   box-shadow: none, 0 0 1px rgba(0,0,0,0.1);
-  border-radius: 0;
+  border-radius: 1.25rem;
   background-color: #050a0e;
 }
 .searchbox .searchbox-pagination .searchbox-pagination-item.active .searchbox-pagination-link {
