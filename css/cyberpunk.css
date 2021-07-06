@@ -10994,6 +10994,7 @@ a.article-nav-next span {
   align-items: center;
   padding: 0 0.5rem;
   margin: 1.25rem 0.25rem;
+  border-radius: 1.25rem;
 }
 .navbar-main .navbar-item.is-active {
   background-color: transparent;
@@ -11373,6 +11374,7 @@ figure.highlight .section {
 }
 .widget .menu-list .level {
   margin-bottom: 0;
+  border-radius: 1.25rem;
 }
 .widget .menu-list .level .level-left,
 .widget .menu-list .level .level-right,
@@ -11382,6 +11384,9 @@ figure.highlight .section {
 .widget .menu-list .level .level-left,
 .widget .menu-list .level .level-right {
   align-items: flex-start;
+}
+.widget .menu-list .level-item {
+  border-radius: 1.25rem;
 }
 .widget .menu-list .tag {
   background: $light-grey;
