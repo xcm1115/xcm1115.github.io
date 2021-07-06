@@ -10964,6 +10964,8 @@ a.article-nav-next span {
   white-space: normal;
 }
 .navbar-main {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
   box-shadow: none;
 }
 .navbar-main .navbar-menu,
