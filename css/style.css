@@ -10970,7 +10970,7 @@ a.article-nav-next span {
 .navbar-main .navbar-menu,
 .navbar-main .navbar-start,
 .navbar-main .navbar-end {
-  align-items: stretch;
+  align-items: center;
   display: flex;
   padding: 0;
   flex-shrink: 0;
@@ -10989,10 +10989,11 @@ a.article-nav-next span {
   margin-left: auto;
 }
 .navbar-main .navbar-item {
+  height: 2.5rem;
   display: flex;
   align-items: center;
-  padding: 1.2rem 0.75rem;
-  margin: 0 0;
+  padding: 0.8rem 1rem;
+  margin: 0.6rem 0;
   border-radius: 1.25rem;
 }
 .navbar-main .navbar-item.is-active {
@@ -11009,6 +11010,10 @@ a.article-nav-next span {
   .navbar-main .navbar-end {
     margin-left: 0;
   }
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
 }
 .navbar-logo img {
   max-height: 1.75rem;
