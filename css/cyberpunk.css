@@ -10314,6 +10314,9 @@ body > .section {
   height: 100%;
   width: 30%;
 }
+.gap {
+  margin-bottom: 0.75rem;
+}
 .level img {
   border-radius: 100px;
   transition: all 0.5s ease-in;
@@ -10857,6 +10860,10 @@ article.article .article-tags {
 article.article .article-meta {
   overflow-x: auto;
   margin-bottom: 0.5rem;
+}
+article.article .article-more {
+  border-radius: 1.25rem;
+  height: 2.5rem;
 }
 article.article .content {
   word-wrap: break-word;
