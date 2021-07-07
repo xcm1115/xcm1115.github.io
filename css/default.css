@@ -10860,7 +10860,7 @@ article.article .article-meta {
   overflow-x: auto;
   margin-bottom: 0.5rem;
 }
-article.article .article-more {
+article.article .button {
   border-radius: 1.25rem;
   height: 2.5rem;
 }
